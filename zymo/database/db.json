@@ -1,0 +1,75 @@
+{
+
+"cardata": [
+  {
+    "id": "1",
+    "carno": 121,
+    "name": "Sachin",
+    "city": "Bhopal",
+    "prices": 34500
+  },
+  {
+    "id": "2",
+    "carno": 122,
+    "name": "Aditi",
+    "city": "Indore",
+    "prices": 45000
+  },
+  {
+    "id": "3",
+    "carno": 123,
+    "name": "Rahul",
+    "city": "Gwalior",
+    "prices": 55000
+  },
+  {
+    "id": "4",
+    "carno": 124,
+    "name": "Priya",
+    "city": "Jabalpur",
+    "prices": 60000
+  },
+  {
+    "id": "5",
+    "carno": 125,
+    "name": "Vikram",
+    "city": "Sagar",
+    "prices": 32000
+  },
+  {
+    "id": "6",
+    "carno": 126,
+    "name": "Neha",
+    "city": "Ujjain",
+    "prices": 47000
+  },
+  {
+    "id": "7",
+    "carno": 127,
+    "name": "Karan",
+    "city": "Dewas",
+    "prices": 39000
+  },
+  {
+    "id": "8",
+    "carno": 128,
+    "name": "Anjali",
+    "city": "Mandsaur",
+    "prices": 41000
+  },
+  {
+    "id": "9",
+    "carno": 129,
+    "name": "Ravi",
+    "city": "Ratlam",
+    "prices": 52000
+  },
+  {
+    "id": "10",
+    "carno": 130,
+    "name": "Simran",
+    "city": "Khargone",
+    "prices": 48000
+  }
+]
+}

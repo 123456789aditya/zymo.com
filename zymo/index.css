@@ -1,595 +1,540 @@
-#nav-bar{
-    height:90px;
-    width:1500px;
-    border:2px solid white;
-    position:fixed;
-    top:0px;
-    background-color:white;
+#nav-bar {
+  height: 90px;
+  width: 1500px;
+  border: 2px solid white;
+  position: fixed;
+  top: 0px;
+  background-color: white;
 }
 
-
-
-#options{
-    list-style:none;
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    justify-content:space-between;
-    
+#options {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-between;
 }
 
-
-a{
-    text-decoration:none;
-    font-size:20px;
-    color:black;
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
 
-#main-page{
-    width:1500px;
-    height:750px;
-    border:2px solid white;
-    background-image: url("p2-BH1Hart3.png");
-    background-repeat:no-repeat;
-    background-size:contain;
-    animation-name:zymo-swap;
+#main-page {
+  width: 1500px;
+  height: 750px;
+  border: 2px solid white;
+  background-image: url("p2-BH1Hart3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation-name: zymo-swap;
 }
 
-#rent-buy{
-    height:220px;
-    width:1500px;
-    border:2px solid white;
-    background-color:#a2a8d3;
+#rent-buy {
+  height: 220px;
+  width: 1500px;
+  border: 2px solid white;
+  background-color: #a2a8d3;
 }
 
-button{
-    margin-top:40px;
-    margin-left:40px;
-    height:40px;
-    width:150px;
-    font-size:18px;
-    border-radius:12px;
-    color:white;
-    background-color:#9d53c3;
-    border:2px solid #9d53c3;
+button {
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 12px;
+  color: white;
+  background-color: #9d53c3;
+  border: 2px solid #9d53c3;
 }
 
-#btn-1:hover{
-    transform:scale(1.3);
+#btn-1:hover {
+  transform: scale(1.3);
 }
-#btn-1:active{
-    border:5px solid white;
-}
-
-#btn-4:active{
-    border:5px solid white;
-}
-#city{
-    margin-top:50px;
-    margin-left:40px;
-    height:40px;
-    width:300px;
-    border-radius:12px;
-    background-color:#9d53c3;
-    color:white;
-    font-size:18px;
-
+#btn-1:active {
+  border: 5px solid white;
 }
 
-#ad{
-    height:400px;
-    width:1500px;
-    border:2px solid white;
-    font-size:60px;
-    align-content:center;
-    font-weight:60px;
-    background-image:url("samuele-errico-piccarini-MyjVReZ5GLQ-unsplash.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    /*animation-name:Aditya;
+#btn-4:active {
+  border: 5px solid white;
+}
+#city {
+  margin-top: 50px;
+  margin-left: 40px;
+  height: 40px;
+  width: 300px;
+  border-radius: 12px;
+  background-color: #9d53c3;
+  color: white;
+  font-size: 18px;
+}
+
+#ad {
+  height: 400px;
+  width: 1500px;
+  border: 2px solid white;
+  font-size: 60px;
+  align-content: center;
+  font-weight: 60px;
+  background-image: url("samuele-errico-piccarini-MyjVReZ5GLQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+
+  /*animation-name:Aditya;
     animation-duration:2s;
     animation-timing-function:linear;
     animation-iteration-count:infinite;
     animation-direction:normal;*/
-    
-}
-    
-
-
-
-#para-1{
-    height:200px;
-    width:830px;
-    border:2px solid hsl(57, 78%, 41%);
-    animation-name:Aditya;
-    animation-duration:2s;
-    animation-timing-function:ease-in;
-    animation-iteration-count:infinite;
-    animation-direction:normal;
-    animation-name:Aditya;
-    animation-duration:2s;
-    animation-timing-function:linear;
-    animation-iteration-count:infinite;
-    animation-direction:normal;
-    transition:all 2s ease-in 0s;
-    transform:translate(620px)
-    
-
-    
-}
-#para-1:hover{
-    transition:all 2s ease-in 0s;
-    transform:translate(-100px);
-
 }
 
-@keyframes Aditya{
-    0%{
-        left:0px;
-        color:white;
-    }
-    50%{
-        color:green;
-    }
-    100%{
-        color:yellow;
-    }
-}
-
-#para-2{
-    margin-top:0px;
-}
-
-#why-zymo{
-    margin-top:100px;
-    margin-left:625px;
-    font-size:30px;
-}
-
-#boxer{
-    height:200px;
-    width:200px;
-    border:2px solid white;
-    border-radius:12px;
-    background-color:#DAB1DA;
-    padding-top:80px;
-    padding-left:50px;
-    font-size:30px;
-    
+#para-1 {
+  height: 200px;
+  width: 830px;
+  border: 2px solid hsl(57, 78%, 41%);
+  animation-name: Aditya;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-name: Aditya;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  transition: all 2s ease-in 0s;
 
 }
-
-#boxer:hover{
-    transform:scale(1.2);
+#para-1:hover {
+  transition: all 2s ease-in 0s;
+  transform: translate(-100px);
 }
 
-#boxer-1{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    
-    
+@keyframes Aditya {
+  0% {
+    left: 0px;
+    color: white;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: yellow;
+  }
 }
 
-#btn-4{
-    background-color:goldenrod;
-    margin-bottom:5px;
-    border:2px dashed goldenrod;
-}
-#btn-4:hover{
-    transform:scale(1.3);
+#para-2 {
+  margin-top: 0px;
 }
 
-#brd-a{
-    font-size:50px;
-    padding-left:500px;
+#why-zymo {
+  margin-top: 100px;
+  margin-left: 625px;
+  font-size: 30px;
 }
 
-#brands-avail{
-    height:190px;
-    width:2100px;
-    border:2px solid white;
-    display:flex;
-    
-
-}
-#car-logo{
-    height:150px;
-    width:150px;
-    border:2px solid white;
-    margin-left:20px;
-    padding-left:35px;
-    padding-top:0px;
-    background-color:white;
-    color:white;
-}
-#car-logo:hover{
-    transition:all 2s ease-in 0s;
-    text-decoration:underline;
-    text-decoration-color:green;
-    text-decoration-thickness:2px;
-    
-}
-img{
-    position:relative;
-    right:18px;
-    bottom:2px;
-    background-color:black;
+#boxer {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 12px;
+  background-color: #dab1da;
+  padding-top: 80px;
+  padding-left: 50px;
+  font-size: 30px;
 }
 
-#footer{
-    font-size:30px;
-    color:purple;
+#boxer:hover {
+  transform: scale(1.2);
 }
 
-#contact-d{
-    margin-left:20px;
-}
-#twitter{
-    font-size:30px;
-}
-#footer-opt ul{
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    justify-content:space-around;
-    list-style-type: none;
-
-    /*--------------------------------------------------------------------------------------------------------*/
-    /*blog*/
-}
-#blog{
-    font-size:40px;
-    font-style:italic;
-    padding-left:600px;
-    color:purple;
-
-}
-#vlogs{
-    height:400px;
-    width:1500px;
-    border:2px solid white;
-    display:flex;
-
-}
-#v1{
-    height:400px;
-    width:500px;
-    border:2px solid white;
-    padding-left:30px;
-    padding-top:20px;
+#boxer-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-#v1:hover{
-    border:4px solid black;
+#btn-4 {
+  background-color: goldenrod;
+  margin-bottom: 5px;
+  border: 2px dashed goldenrod;
+}
+#btn-4:hover {
+  transform: scale(1.3);
 }
 
-#vlogs2{
-    height:400px;
-    width:1500px;
-    border:2px solid white;
-    display:flex;
-
-}
-#v2{
-    height:400px;
-    width:500px;
-    border:2px solid white;
-    padding-left:30px;
-    padding-top:20px;
-}
-#v2:hover{
-    border:4px solid black;
+#brd-a {
+  font-size: 50px;
+  padding-left: 500px;
 }
 
-#vlogs3{
-    height:400px;
-    width:1500px;
-    border:2px solid white;
-    display:flex;
+#brands-avail {
+  height: 190px;
+  width: 2100px;
+  border: 2px solid white;
+  display: flex;
+}
+#car-logo {
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  margin-left: 20px;
+  padding-left: 35px;
+  padding-top: 0px;
+  background-color: white;
+  color: white;
+}
+#car-logo:hover {
+  transition: all 2s ease-in 0s;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 2px;
+}
+img {
+  position: relative;
+  right: 18px;
+  bottom: 2px;
+  background-color: black;
+}
 
-}
-#v3{
-    height:400px;
-    width:500px;
-    border:2px solid white;
-    padding-left:30px;
-    padding-top:20px;
-}
-#v3:hover{
-    border:4px solid black;
+#footer {
+  font-size: 30px;
+  color: purple;
 }
 
-#vlogs4{
-    height:400px;
-    width:1500px;
-    border:2px solid white;
-    display:flex;
+#contact-d {
+  margin-left: 20px;
+}
+#twitter {
+  font-size: 30px;
+}
+#footer-opt ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-around;
+  list-style-type: none;
 
+  /*--------------------------------------------------------------------------------------------------------*/
+  /*blog*/
 }
-#v4{
-    height:400px;
-    width:500px;
-    border:2px solid white;
-    padding-left:30px;
-    padding-top:20px;
+#blog {
+  font-size: 40px;
+  font-style: italic;
+  padding-left: 600px;
+  color: purple;
 }
-#v4:hover{
-    border:4px solid black;
+#vlogs {
+  height: 400px;
+  width: 1500px;
+  border: 2px solid white;
+  display: flex;
+}
+#v1 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+#v1:hover {
+  border: 4px solid black;
+}
+
+#vlogs2 {
+  height: 400px;
+  width: 1500px;
+  border: 2px solid white;
+  display: flex;
+}
+#v2 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+#v2:hover {
+  border: 4px solid black;
+}
+
+#vlogs3 {
+  height: 400px;
+  width: 1500px;
+  border: 2px solid white;
+  display: flex;
+}
+#v3 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+#v3:hover {
+  border: 4px solid black;
+}
+
+#vlogs4 {
+  height: 400px;
+  width: 1500px;
+  border: 2px solid white;
+  display: flex;
+}
+#v4 {
+  height: 400px;
+  width: 500px;
+  border: 2px solid white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+#v4:hover {
+  border: 4px solid black;
 }
 /*----------------------------------------------------------------------------------------*/
 /*careers*/
 
-#career{
-    height:150px;
-    width:400px;
-    border:2px solid black;
-    margin-left:500px;
-    animation-name:Anime;
-    animation-duration:3s;
-    animation-timing-function:linear;
-    animation-iteration-count:infinite;
-    animation-direction:normal;
-    background-color:white;
-    font-size:50px;
-    
+#career {
+  height: 150px;
+  width: 400px;
+  border: 2px solid black;
+  margin-left: 500px;
+  animation-name: Anime;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  background-color: white;
+  font-size: 50px;
 }
 
+@keyframes Anime {
+  0% {
+    left: 0px;
+    background-color: white;
+  }
+  50% {
+    left: 500px;
+    background-color: aquamarine;
+  }
+  100% {
+    left: 1000;
+    background-color: green;
+  }
+}
 
-    @keyframes Anime{
-        0%{
-            left:0px;
-            background-color:white;
-        }
-        50%{
-            left:500px;
-            background-color:aquamarine;
-        }
-        100%{
-            left:1000;
-            background-color:green;
-        }
-    }
+#career:hover {
+  transition: all 3s ease-in;
+  transform: translate(900px);
+}
 
-    #career:hover{
-        transition:all 3s ease-in;
-        transform:translate(900px);
+#form-fill {
+  height: 1300px;
+  width: 600px;
+  border: 2px solid #fff262;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  margin-left: 450px;
+  border-radius: 12px;
+}
 
-    }
+#fill {
+  padding-top: 35px;
+  margin-top: 35px;
+  margin-left: 90px;
+  background-color: white;
+  width: 400px;
+  height: 30px;
+  border-radius: 12px;
+  font-size: 30px;
+  border: 2px solid white;
+}
 
-    #form-fill{
-        height:1300px;
-        width:600px;
-        border:2px solid #FFF262;
-        display:flex;
-        flex-direction: column;
-        background-color:gray;
-        margin-left:450px;
-        border-radius:12px;
-        
-        
-    }
+#bod {
+  background-image: url("p2-BH1Hart3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    #fill{
-        padding-top:35px;
-        margin-top:35px;
-        margin-left:90px;
-        background-color:white;
-        width:400px;
-        height:30px;
-        border-radius:12px;
-        font-size:30px;
-        border:2px solid white;
-        
+#skills {
+  padding-left: 200px;
+  height: 30px;
+  width: 200px;
+}
+#btn-6 {
+  background-color: #d2ac47;
+  color: black;
+  font-weight: 15px;
+  border: 2px solid #d2ac47;
+  margin-left: 50px;
+}
+.bts {
+  margin-left: 480px;
+}
 
-        
-    }
+#fb {
+  height: 200px;
+  width: 400px;
+  position: relative;
+  right: 120px;
+  color: black;
+  border-radius: 12px;
+}
 
-    #bod{
-        background-image:url("p2-BH1Hart3.png");
-        background-repeat:no-repeat;
-        background-size:cover;
-    }
+#fb-1 {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  right: 120px;
+  color: black;
+  border-radius: 12px;
+  background-color: #fff2c2;
+}
 
-    #skills{
-        padding-left:200px;
-        height:30px;
-        width:200px;
-    }
-    #btn-6{
-        background-color:#D2AC47;
-        color:black;
-        font-weight:15px;
-        border:2px solid #D2AC47;
-        margin-left:50px;
+#fb-1 ::placeholder {
+  font-size: 40px;
+}
 
-    }
-    .bts{
-        margin-left:480px;
-    }
+.fa-solid fa-file {
+  height: 30px;
+  width: 30px;
+}
 
-    #fb{
-        height:200px;
-        width:400px;
-        position:relative;
-        right:120px;
-        color:black;
-        border-radius:12px;
-    }
+#btn-7 {
+  height: 60px;
+  width: 200px;
+}
 
-    #fb-1{
-        height:200px;
-        width:200px;
-        position:relative;
-        right:120px;
-        color:black;
-        border-radius:12px;
-        background-color:#FFF2C2
-    }
+/*----------------------------------------CONTACT US---------*/
 
-    #fb-1 ::placeholder{
-        font-size:40px;
-        
-        
-    }
+#contact-us {
+  margin-left: 600px;
+  margin-top: 100px;
+}
 
-    .fa-solid fa-file{
-        height:30px;
-        width:30px;
-    }
+#contact-box {
+  height: 200px;
+  width: 400px;
+  border: 2px solid white;
+  margin-left: 500px;
+  background-color: #fff2c2;
+}
 
-    #btn-7{
-        height:60px;
-        width:200px;
+#contact-box ul li {
+  padding-left: 60px;
+  padding-top: 40px;
+  font-size: 20px;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  animation-name: sanskar;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+#contact-box ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 5px;
+}
 
-    }
+/*---------------------------queries---------*/
 
-    /*----------------------------------------CONTACT US---------*/
+#ques-1 {
+  padding-left: 500px;
+  padding-top: 80px;
+}
 
-    #contact-us{
-        margin-left:600px;
-        margin-top:100px;
-        
-    }
+#ques-2 {
+  height: 400px;
+  width: 1500px;
+  border: 2px solid white;
+  padding-left: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
-    #contact-box{
-        height:200px;
-        width:400px;
-        border:2px solid white;
-        margin-left:500px;
-        background-color:#FFF2C2;
-        
-    }
+#b-1 {
+  height: 40px;
+  width: 800px;
+  border: 2px solid black;
+  border-radius: 12px;
+  color: white;
+  background-color: rgb(148, 0, 211);
+  padding-left: 350px;
+  font-size: 20px;
+  font-weight: 100px;
+}
 
-    #contact-box ul li{
-        padding-left:60px;
-        padding-top:40px;
-        font-size:20px;
-        transition-property:all;
-        transition-duration:2s;
-        transition-delay:2s;
-        animation-name:sanskar;
-        animation-duration:2s;
-        animation-delay:1s;
-        animation-iteration-count: infinite;
-        animation-direction:normal;
+#ques-3 {
+  height: 450px;
+  width: 1500px;
+  border: 2px solid black;
+  background-color: rgb(148, 0, 211);
+}
 
-    }
-    #contact-box ul li:hover{
-        text-decoration:underline;
-        text-decoration-color:black;
-        text-decoration-thickness: 5px;
-        
+#personal {
+  padding-left: 600px;
+  color: white;
+}
 
-    }
+#parallel {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(148, 0, 211);
+}
 
-    /*---------------------------queries---------*/
+#parallel ul li {
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
 
-    #ques-1{
-        padding-left:500px;
-        padding-top:80px;
-    }
+#thanks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fa-brands fa-google-play {
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+}
 
-    #ques-2{
-        height:400px;
-        width:1500px;
-        border:2px solid white;
-        padding-left:270px;
-        display:flex;
-        flex-direction:column;
-        justify-content:space-around;
-    }
+#ABOUT ul li {
+  list-style-type: none;
+}
 
-    #b-1{
-        height:40px;
-        width:800px;
-        border:2px solid black;
-        border-radius:12px;
-        color:white;
-        background-color:rgb(148,0,211);
-        padding-left:350px;
-        font-size:20px;
-        font-weight:100px;
-    }
+#features ul li {
+  list-style-type: none;
+}
+#install-app ul li {
+  list-style-type: none;
+}
 
-    #ques-3{
-        height:450px;
-        width:1500px;
-        border:2px solid black;
-        background-color:rgb(148,0,211);
-        
-    }
+#nav-bar ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: violet;
+  transition: all 2s ease-in 0.2s;
+}
 
-    #personal{
-        padding-left:600px;
-        color:white;
-    }
+#contact-d:hover {
+  text-decoration: underline;
+}
 
-    #parallel{
-        display:flex;
-        justify-content:space-around;
-        background-color:rgb(148,0,211);
-    }
-
-    #parallel ul li{
-        list-style-type:none;
-        font-size:20px;
-        color:white;
-    }
-
-    #thanks{
-        display:flex;
-        flex-direction:row;
-        justify-content:space-around;
-    }
-    .fa-brands fa-google-play{
-        font-size:20px;
-        height:40px;
-        width:40px;
-    }
-
-    #ABOUT ul li{
-        list-style-type:none;
-    }
-
-    #features ul li{
-        list-style-type:none;
-    }
-    #install-app ul li{
-        list-style-type:none;
-    }
-
-    #nav-bar ul li:hover{
-        text-decoration:underline;
-        text-decoration-color:violet;
-        transition:all 2s ease-in 0.2s;
-    }
-
-    #contact-d:hover{
-        text-decoration:underline;
-        
-    }
-
-    #ABOUT:hover{
-        text-decoration:underline;
-    }
-    #features:hover{
-        text-decoration:underline;
-    }
-    #install-app:hover{
-        text-decoration:underline;
-    }
-
-    
-
-
-
-
-    
-
-  
-
-
-
-
-
+#ABOUT:hover {
+  text-decoration: underline;
+}
+#features:hover {
+  text-decoration: underline;
+}
+#install-app:hover {
+  text-decoration: underline;
+}
